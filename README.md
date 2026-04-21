@@ -19,7 +19,7 @@ It combines attendance patterns and waiting time performance to understand both 
 - Pivot Tables & Pivot Charts
 - Data visualisation & dashboard design principles
 
-<br><br>
+<br>
 
 ## Dashboard 1: A&E Attendances
 ![A&E Attendances Dashboard](ae-attendances-dashboard.png)
@@ -60,7 +60,7 @@ The objective was to understand how demand is distributed across A&E types and a
 ## Data Source
 NHS England A&E Attendances Data (Apr 2024 – Mar 2025)
 
-<br><br>
+<br>
 
 ## Dashboard 2: A&E 4-Hour Delays
 ![A&E 4-Hour Delays Dashboard](ae-delays-dashboard.png)
