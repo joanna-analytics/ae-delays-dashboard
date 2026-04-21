@@ -4,7 +4,7 @@
 ![Dashboard](ae-delays-dashboard.png)
 
 
-## 📌 Overview
+## Overview
 This project analyses A&E waiting time performance across NHS England using publicly available data.  
 The objective was to determine whether higher delays are driven by overall attendance volume or underlying performance differences.
 
