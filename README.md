@@ -40,14 +40,14 @@ This data is licensed under the Open Government Licence v3.0 (OGL v3.0), which p
 
 ## Analysis & Dashboard Features
 The dashboard includes:
-- A detailed breakdown of A&E attendances and 4-hour delays by type (Major A&E, Minor A&E, Other Departments, and Booked categories)
+- A detailed breakdown of A&E attendances and 4-hour delays by type (Type 1, Type 2, Other Departments, and Booked categories)
 - A high-level comparison of walk-in versus booked attendances
 - Interactive slicers:
   - Region
   - Season (Dec–Feb, Mar–May, Jun–Aug, Sep–Nov)
 These features allow users to dynamically explore patterns and compare different segments of the data.
 
-<br><br>
+<br>
 
 ## Dashboard 1: A&E Attendances
 ![A&E Attendances Dashboard](ae-attendances-dashboard.png)
@@ -75,15 +75,9 @@ These features allow users to dynamically explore patterns and compare different
 
 ---
 
-## Overview
-This project analyses A&E waiting time performance across NHS England using publicly available data.  
-The objective was to determine whether higher delays are driven by overall attendance volume or underlying performance differences.
-
----
-
 ## Objectives
 - Analyse 4-hour delay breaches across A&E types
-- Compare walk-in vs booked attendance pathways
+- Compare delays in walk-in vs booked attendance pathways
 - Normalise metrics to ensure fair comparison across categories
 - Enable dynamic filtering by region and season
 
