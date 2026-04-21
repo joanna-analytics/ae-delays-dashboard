@@ -1,19 +1,14 @@
-# A&E Attendances Dashboard (NHS England)
-
-## Dashboard Preview
-![Dashboard](ae-attendances-dashboard.png)
-
-
 ## Overview
-This project analyses A&E attendance patterns across NHS England using publicly available data.
-The objective was to understand how demand is distributed across A&E types and attendance pathways.
+This project analyses A&E performance across NHS England using publicly available data.  
+It combines attendance patterns and waiting time performance to understand both demand and system pressure.
 
 ---
 
 ## Objectives
-- Analyse total attendances across A&E types
+- Analyse A&E attendances across departments and pathways
+- Evaluate 4-hour delay performance across A&E types
 - Compare walk-in vs booked attendance pathways
-- Examine distribution of demand across services
+- Normalise metrics to ensure fair comparison
 - Enable dynamic filtering by region and season
 
 ---
@@ -23,6 +18,23 @@ The objective was to understand how demand is distributed across A&E types and a
 - Power Query (data cleaning & transformation)
 - Pivot Tables & Pivot Charts
 - Data visualisation & dashboard design principles
+
+---
+
+## Dashboard 1: A&E Attendances
+![A&E Attendances Dashboard](ae-attendances-dashboard.png)
+
+## Overview
+This project analyses A&E attendances across NHS England using publicly available data.  
+The objective was to understand how demand is distributed across A&E types and attendance pathways.
+
+---
+
+## Objectives
+- Analyse attendances across A&E types
+- Compare walk-in vs booked attendance pathways
+- Examine demand distribution across services
+- Enable dynamic filtering by region and season
 
 ---
 
@@ -48,15 +60,10 @@ The objective was to understand how demand is distributed across A&E types and a
 ## Data Source
 NHS England A&E Attendances Data (Apr 2024 – Mar 2025)
 
+---
 
-
-
-
-# A&E 4-Hour Delays Dashboard (NHS England)
-
-## Dashboard Preview
-![Dashboard](ae-delays-dashboard.png)
-
+## Dashboard 2: A&E 4-Hour Delays
+![A&E 4-Hour Delays Dashboard](ae-delays-dashboard.png)
 
 ## Overview
 This project analyses A&E waiting time performance across NHS England using publicly available data.  
@@ -72,14 +79,6 @@ The objective was to determine whether higher delays are driven by overall atten
 
 ---
 
-## Tools & Technologies
-- Microsoft Excel  
-- Power Query (data cleaning & transformation)  
-- Pivot Tables & Pivot Charts  
-- Data visualisation & dashboard design principles  
-
----
-
 ## Dashboard Features
 - Interactive slicers:
   - Region
@@ -87,7 +86,7 @@ The objective was to determine whether higher delays are driven by overall atten
 - Comparison of:
   - Type 1, Type 2, and Other A&E departments
   - Walk-in vs Booked pathways
-- Clean, structured layout for readability and usability  
+- Clean, structured layout for readability and usability
 
 ---
 
@@ -96,7 +95,7 @@ The objective was to determine whether higher delays are driven by overall atten
 - Type 2 and Other departments have much lower delay rates (~3–4%)
 - Differences persist even after adjusting for attendance volume
 - Indicates structural pressure rather than volume alone
-- Delay patterns vary across regions, highlighting geographic disparities  
+- Delay patterns vary across regions, highlighting geographic disparities
 
 ---
 
