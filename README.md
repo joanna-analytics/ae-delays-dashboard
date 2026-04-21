@@ -1,3 +1,53 @@
+# A&E Attendances Dashboard (NHS England)
+
+## Dashboard Preview
+![Dashboard](ae-attendances-dashboard.png)
+
+
+## Overview
+This project analyses A&E attendance patterns across NHS England using publicly available data.
+The objective was to understand how demand is distributed across A&E types and attendance pathways.
+
+---
+
+## Objectives
+- Analyse total attendances across A&E types
+- Compare walk-in vs booked attendance pathways
+- Examine distribution of demand across services
+- Enable dynamic filtering by region and season
+
+---
+
+## Tools & Technologies
+- Microsoft Excel
+- Power Query (data cleaning & transformation)
+- Pivot Tables & Pivot Charts
+- Data visualisation & dashboard design principles
+
+---
+
+## Dashboard Features
+- Interactive slicers:
+  - Region
+  - Season
+- Comparison of:
+  - Type 1, Type 2, and Other A&E departments
+  - Walk-in vs Booked pathways
+- Clean, structured layout for readability and usability
+
+---
+
+## Key Insights
+- The vast majority of A&E attendances are walk-ins (~96%)
+- Booked appointments represent a very small proportion of total demand
+- Type 1 A&E accounts for the largest share of attendances
+- Demand patterns vary across regions and seasons
+
+---
+
+## Data Source
+NHS England A&E Attendances Data (Apr 2024 – Mar 2025)
+
 
 
 # A&E 4-Hour Delays Dashboard (NHS England)
